@@ -173,4 +173,4 @@ gdp-health-education-analysis/
 ## 📜 License
 This project is licensed under the [MIT License](./LICENSE.txt).
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE.txt)
