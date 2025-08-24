@@ -146,7 +146,7 @@ gdp-health-education-analysis/
 │   │   ├── preprocess.py
 │   │   ├── train.py
 │   │   ├── causal.py
-│   │   └── causal_params_*.csv
+│   │   └── causal_params.csv
 │   └── utils/
 │       └── visualization/plots.py
 │
