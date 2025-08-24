@@ -1,0 +1,43 @@
+paths:
+  raw_csv: data/raw/WB_GS_WIDEF.csv
+  processed_parquet: data/processed/panel_clean.parquet
+  selected_indicators_csv: configs/selected_indicators.csv
+  country_metadata_csv: data/processed/country_meta.csv
+targets: 
+  economic_target: GDP per capita (constant 2010 US$) 
+  alt_target: GDP growth (annual %)
+time:
+  start_year: 1980
+  end_year: 2023
+  forecast_horizon_years: 5
+  lag_years:
+  - 1
+  - 3
+  - 5
+  - 10
+  delta_years:
+  - 1
+  - 3
+  - 5
+  - 10
+panel_keys:
+  freq: FREQ
+  country_code: REF_AREA
+  country_name: REF_AREA_LABEL
+  indicator_code: INDICATOR
+  indicator_name: INDICATOR_LABEL
+
+causal:
+  outcome: WB_GS_NY_GDP_PCAP_KD   # GDP per capita
+  treatments:
+    - WB_GS_SP_DYN_LE60_IN       #Life expectancy at 60
+    - WB_GS_SE_TER_ENRR           # tertiary enrollment
+  controls:
+    # Key demographic control
+    - WB_GS_SP_POP_DPND
+    # Essential economic and social controls
+    - WB_GS_SP_URB_TOTL_IN_ZS
+    - WB_GS_FP_CPI_TOTL_ZG
+    - WB_GS_SL_UEM_ZS
+
+

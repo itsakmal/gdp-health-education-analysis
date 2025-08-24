@@ -1,0 +1,22 @@
+data: C:\edu_health_growth_ml\data\processed\panel_clean.parquet
+target: WB_GS_NY_GDP_PCAP_KD
+treatments_used:
+- WB_GS_SP_DYN_LE60_IN
+- WB_GS_SE_TER_ENRR
+controls_used:
+- WB_GS_SP_POP_DPND
+- WB_GS_SP_URB_TOTL_IN_ZS
+- WB_GS_FP_CPI_TOTL_ZG
+- WB_GS_SL_UEM_ZS
+years_range:
+- 1980
+- 2021
+min_years_per_country: 3
+n_obs: 4744
+n_countries: 194
+n_years: 42
+formula: WB_GS_NY_GDP_PCAP_KD ~ WB_GS_SP_DYN_LE60_IN + WB_GS_SE_TER_ENRR + WB_GS_SP_POP_DPND
+  + WB_GS_SP_URB_TOTL_IN_ZS + WB_GS_FP_CPI_TOTL_ZG + WB_GS_SL_UEM_ZS + C(REF_AREA)
+  + C(YEAR)
+cluster: REF_AREA
+cov_type: cluster

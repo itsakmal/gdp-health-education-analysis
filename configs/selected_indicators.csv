@@ -1,0 +1,42 @@
+INDICATOR,INDICATOR_LABEL,THEME
+WB_GS_NY_GDP_MKTP_CD,GDP (current US$),economy
+WB_GS_NY_GDP_MKTP_KD_ZG,GDP growth (annual %),economy
+WB_GS_NY_GDP_PCAP_KD,GDP per capita (constant 2010 US$),economy
+WB_GS_NY_GNP_PCAP_PP_CD,"GNI per capita, PPP (current international $)",economy
+WB_GS_SE_SCH_LIFE,Expected years of schooling,education
+WB_GS_SE_TER_CMPL_ZS,"Gross graduation ratio, tertiary (%)",education
+WB_GS_SE_PRM_GINT_ZS,"Gross intake ratio in grade 1, total (% of relevant age group)",education
+WB_GS_SE_ADT,Literacy rate (%),education
+WB_GS_SE_ADT_1524_LT_FM_ZS,"Literacy rate, gender parity index (youth ages 15-24)",education
+WB_GS_SE_PRM_NINT_ZS,Net intake rate in grade 1 (% of official school-age population),education
+WB_GS_SE_PRM_PRS5_ZS,Persistence to grade 5 (% of cohort),education
+WB_GS_SE_PRM_CMPT_ZS,Primary completion rate (% of relevant age group),education
+WB_GS_SE_PRM_CMPL_ZS,"Primary completion rate, based on completers (%)",education
+WB_GS_SE_PRM_ENRL_FE_ZS,"Primary education, pupils (% female)",education
+WB_GS_SE_PRM_TCHR_FE_ZS,"Primary education, teachers (% female)",education
+WB_GS_SE_ENR,"School enrollment, gender parity index",education
+WB_GS_SE_PRE_ENRR,"School enrollment, preprimary (% gross)",education
+WB_GS_SE_PRM_ENRR,"School enrollment, primary (%)",education
+WB_GS_SE_SEC_ENRR,"School enrollment, secondary (%)",education
+WB_GS_SE_TER_ENRR,"School enrollment, tertiary (% gross)",education
+WB_GS_SE_SEC_ENRL_FE_ZS,"Secondary education, pupils (% female)",education
+WB_GS_SE_SEC_TCHR_FE_ZS,"Secondary education, teachers (% female)",education
+WB_GS_SE_SEC_ENRL_VO,"Secondary education, vocational pupils",education
+WB_GS_SE_SEC_ENRL_VO_FE_ZS,"Secondary education, vocational pupils (% female)",education
+WB_GS_UIS_GTVP_2_V,Share of all students in lower secondary education enrolled in vocational programmes (%),education
+WB_GS_UIS_GTVP_4_V,Share of all students in post-secondary non-tertiary education enrolled in vocational programmes (%),education
+WB_GS_UIS_GTVP_3_V,Share of all students in upper secondary education enrolled in vocational programmes (%),education
+WB_GS_UIS_FEP_4_V,"Students in post-secondary non-tertiary vocational education,  female (%)",education
+WB_GS_SE_SEC_ENRL_MA_VO_ZS,"Students in secondary education enrolled in vocational programmes, male (%)",education
+WB_GS_SE_TER_TCHR_FE_ZS,"Tertiary education, academic staff (% female)",education
+WB_GS_SH_IMM_IDPT,"Immunization, DPT (% of children ages 12-23 months)",health
+WB_GS_SH_IMM_MEAS,"Immunization, measles (% of children ages 12-23 months)",health
+WB_GS_SP_DYN_LE60_IN,Life expectancy at age 60 (years),health
+WB_GS_SP_DYN_LE00_IN,Life expectancy at birth (years),health
+WB_GS_SH_STA_MMRT,"Maternal mortality ratio (per 100,000 live births)",health
+WB_GS_SP_POP_DPND,"Age dependency ratio (% of working-age population)",health
+WB_GS_SE_XPD_GD_ZS,"Government expenditure on education (% of GDP)",education
+WB_GS_SH_STA_BRTC_ZS,"Births attended by skilled health staff (%)",health
+WB_GS_SP_URB_TOTL_IN_ZS,"Urban population (%)",population
+WB_GS_FP_CPI_TOTL_ZG,"Inflation, consumer prices (annual %)",prices
+WB_GS_SL_UEM_ZS,"Unemployment (%)",Unemployment
