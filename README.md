@@ -123,7 +123,7 @@ streamlit run streamlit_app.py
 ```
 The application should now be running and accessible in your web browser.
 
-## File Structure
+## 📂 File Structure
 ```bash
 gdp-health-education-analysis/
 │
