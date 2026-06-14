@@ -11,7 +11,7 @@ st.set_page_config(page_title="Education & Healthcare → GDP per capita (what-i
 st.title("📈 Education & Healthcare → GDP per capita (what-if)")
 st.caption(
     "Adjust life expectancy at 60 and tertiary enrollment to see the estimated change in "
-    "GDP per capita (constant US$) based on your causal model coefficients."
+    "GDP per capita (constant US$) based on the causal model coefficients."
 )
 
 # --- Indicator codes (from your pipeline/config) ---
